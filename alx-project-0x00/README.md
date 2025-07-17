@@ -44,5 +44,5 @@ Located in interfaces/index.ts
 - Tailwind CSS for rapid UI design
 - Modular and reusable component architectur
 
-#Github Repository
+# Github Repository
 https://github.com/hananmyy/alx-project-0x00-setup.git
