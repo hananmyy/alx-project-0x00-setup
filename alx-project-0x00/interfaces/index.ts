@@ -10,5 +10,5 @@ export interface ButtonProps {
   title: string;
   size?: ButtonSize;
   shape?: ButtonShape;
-  styles?: string;
+  styles: string;
 }
