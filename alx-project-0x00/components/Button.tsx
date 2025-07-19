@@ -10,7 +10,7 @@ interface ButtonProps {
   styles?: string;
 }
 
-const Button: React.FC<ButtonProps> = ({ title, size = "medium", shape = "rounded-md" }) => {
+const Button: React.FC<ButtonProps> = ({ title, size = "medium", shape = "rounded-md", styles="", }) => {
   const sizeClasses: Record<ButtonSize, string> = {
     small: "px-3 py-1 text-sm",
     medium: "px-4 py-2 text-base",
@@ -20,7 +20,8 @@ const Button: React.FC<ButtonProps> = ({ title, size = "medium", shape = "rounde
   const buttonClass = classNames(
     "bg-blue-600 text-white font-semibold transition duration-300 ease-in-out hover:bg-blue-700",
     sizeClasses[size],
-    shape
+    shape,
+    styles
   );
 
   return <button className={buttonClass}>{title}</button>;

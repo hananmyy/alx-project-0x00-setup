@@ -21,6 +21,13 @@ const Landing: React.FC = () => {
           shape="rounded-sm"
           styles="border-2 border-yellow-500"
         />
+        
+        <Button
+          title="Full Round"
+          size="large"
+          shape="rounded-md"
+          styles="rounded-full bg-red-500"
+        />
       </div>
     </div>
   );
