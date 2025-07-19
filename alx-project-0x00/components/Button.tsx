@@ -7,6 +7,7 @@ interface ButtonProps {
   title: string;
   size?: ButtonSize;
   shape?: ButtonShape;
+  styles?: string;
 }
 
 const Button: React.FC<ButtonProps> = ({ title, size = "medium", shape = "rounded-md" }) => {

@@ -8,9 +8,19 @@ const Landing: React.FC = () => {
       <Card />
 
       <div className="grid grid-cols-3 gap-4">
-        <Button title="Small - Sm" size="small" shape="rounded-sm" />
-        <Button title="Medium - Md" size="medium" shape="rounded-md" />
-        <Button title="Large - Full" size="large" shape="rounded-full" />
+        <Button
+          title="Rounded + Styled"
+          size="medium"
+          shape="rounded-md"
+          styles="rounded-lg shadow-lg bg-green-500"
+        />
+
+        <Button
+          title="Custom Style"
+          size="small"
+          shape="rounded-sm"
+          styles="border-2 border-yellow-500"
+        />
       </div>
     </div>
   );
